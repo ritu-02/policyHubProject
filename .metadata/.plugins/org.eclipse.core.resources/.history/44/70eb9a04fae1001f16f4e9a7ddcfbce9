@@ -1,0 +1,5 @@
+package hub.policy.utility;
+
+public class ValidDocumentNumber {
+
+}

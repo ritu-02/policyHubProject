@@ -1,0 +1,20 @@
+package hub.policy.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import hub.policy.dao.UserAdminDao;
+import hub.policy.entities.User;
+
+public class UserAdminServiceImpl implements UserAdminService {
+	@Autowired
+	private UserAdminDao userAdminDao;
+
+	@Override
+	public List<User> getAllUsersList() {
+		
+		return userAdminDao.findAll();
+	}
+
+}

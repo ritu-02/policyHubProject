@@ -1,0 +1,5 @@
+package hub.policy.transactions.entities;
+
+public enum PaymentStatus {
+  SUCCESS,FAILED,PENDING
+}

@@ -1,0 +1,58 @@
+package hub.policy.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import hub.policy.dao.InsuranceDao;
+import hub.policy.dto.PolicyPlanDto;
+import hub.policy.entities.PolicyPlan;
+
+@Service
+
+public class InsuranceServiceImpl implements InsuranceService {
+	@Autowired
+	private InsuranceDao insuranceDao;
+
+	@Override
+	public List<PolicyPlanDto> getAllPolicyPlan() {
+		//return insuranceDao.findAll().stream().map(()->mapper.map());
+		return null;
+	}
+
+	@Override
+	public String addNewPolicyPlan(PolicyPlan obj) {
+		insuranceDao.save(obj);
+		return "policy plan added";
+	}
+
+//	@Override
+//	public PolicyPlanDto getSinglePolicyPlan(Long id) {
+//		return insuranceDao.findById(id)
+//				.orElseThrow();
+//	}
+
+	@Override
+	public String updatePolicyPlan(Long policyPlanId, PolicyPlan policyPlan) {
+		if (insuranceDao.existsById(policyPlanId)) {		
+			insuranceDao.save(policyPlan);
+			return "Updated category !";
+		}
+		return "not found";
+	}
+
+	@Override
+	publicString deletePolicyPlan(Long id) {
+		if (insuranceDao.existsById(id)) {		
+			insuranceDao.deleteById(id);
+		}		
+	}
+
+	@Override
+	public PolicyPlanDto getSinglePolicyPlan(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

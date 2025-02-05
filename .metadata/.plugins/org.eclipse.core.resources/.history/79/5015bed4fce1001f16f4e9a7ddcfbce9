@@ -1,0 +1,5 @@
+package hub.policy.utility;
+
+public enum DocumentType {
+AADHARCARD,VOTERID,PANCARD,PASSPORT,DRIVINGLICENCE
+}

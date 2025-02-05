@@ -1,0 +1,24 @@
+package hub.policy.service;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import hub.policy.dto.PolicyPlanDto;
+import hub.policy.dto.PolicyPlanReqDto;
+import hub.policy.entities.PolicyPlan;
+
+ public interface InsuranceService {
+
+	public List<PolicyPlanDto> getAllPolicyPlan();
+
+	public String addNewPolicyPlan(PolicyPlan policyPlan);
+	
+	public PolicyPlanDto getSinglePolicyPlan(Long id);
+
+	public String updatePolicyPlan(Long policyPlanId, PolicyPlanReqDto policyPlan);
+
+	public String deletePolicyPlan(Long id);
+
+
+}

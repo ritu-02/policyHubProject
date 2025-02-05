@@ -1,0 +1,8 @@
+package hub.policy.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserKycDao {
+  @Query("select uk.KycStatus from UserKyc uk where uk.userId= :id ")
+}

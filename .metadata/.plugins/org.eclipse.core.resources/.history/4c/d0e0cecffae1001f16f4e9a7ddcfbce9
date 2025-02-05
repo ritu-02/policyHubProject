@@ -1,0 +1,21 @@
+package hub.policy.utility;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+public class DocumentNumberValidator implements ConstraintValidator<ValidDocumentNumber,String> {
+	
+	private String documentType;
+	
+	@Override
+	public void initialize(ValidDocumentNumber constraintAnnotation) {
+		
+	}
+
+	@Override
+	public boolean isValid(String arg0, ConstraintValidatorContext arg1) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

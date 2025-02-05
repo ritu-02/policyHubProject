@@ -1,0 +1,22 @@
+package hub.policy.dto;
+
+import java.time.LocalDate;
+
+import hub.policy.entities.KYCStatus;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Setter
+@Getter
+@ToString
+public class AuthResponse {
+   private String firstName;
+   private String lastName;
+   private String email;
+   private String phoneNumber;
+   private String address;
+   private LocalDate dateOfBirth;
+   private KYCStatus kycStatus;
+   
+}

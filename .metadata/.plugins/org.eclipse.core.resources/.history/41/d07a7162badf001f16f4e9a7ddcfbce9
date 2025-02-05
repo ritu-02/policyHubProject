@@ -1,0 +1,5 @@
+package hub.policy.insurance.entities;
+
+public enum InsuranceType {
+   LIFEINSURANCE,HOMEINSURANCE
+}

@@ -1,0 +1,21 @@
+1738474949186	Rename package 'hub.policy.utility'
+1738501912247	Delete element
+1738502540944	Rename type 'UserSignUpDto'
+1738509369200	Delete element
+1738514813517	Rename type 'UserSignInSignUpController'
+1738518366814	Rename type 'UserKycService'
+1738563208708	Rename type 'KycUploaded'
+1738565181636	Copy compilation unit
+1738566148904	Delete element
+1738568924459	Move compilation unit
+1738576303215	Delete element
+1738576308744	Delete element
+1738576446885	Rename type 'UserKycService'
+1738601295868	Rename package 'com.blogs'
+1738610012129	Rename type 'UserController'
+1738610827265	Rename type 'InsuranceServiceImpli'
+1738640068316	Rename type 'PolicyPlanDto'
+1738654456031	Move compilation unit
+1738654460223	Move compilation unit
+1738654464751	Delete element
+1738664145411	Delete element

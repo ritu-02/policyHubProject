@@ -1,0 +1,5 @@
+package hub.policy.user.entities;
+
+public enum KYCStatus {
+PENDING,VERIFIED,REJECTED
+}

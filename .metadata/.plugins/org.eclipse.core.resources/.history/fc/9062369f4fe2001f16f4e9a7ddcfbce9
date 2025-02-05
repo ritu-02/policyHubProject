@@ -1,0 +1,15 @@
+package hub.policy.service;
+
+import java.util.List;
+
+import hub.policy.entities.User;
+
+public class UserAdminServiceImpl implements UserAdminService {
+
+	@Override
+	public List<User> getAllUsersList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

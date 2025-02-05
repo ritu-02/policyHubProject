@@ -1,0 +1,5 @@
+package hub.policy.user.entities;
+
+public enum UserRole {
+ADMIN,AGENT,CUSTOMER
+}

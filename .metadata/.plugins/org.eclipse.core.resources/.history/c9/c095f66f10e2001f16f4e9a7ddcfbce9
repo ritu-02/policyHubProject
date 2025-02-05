@@ -1,0 +1,14 @@
+package hub.policy.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import hub.policy.dao.UserKycDao;
+
+@Service
+public class UserKycService {
+    @Autowired
+	private UserKycDao userKycDao;
+    
+    
+}

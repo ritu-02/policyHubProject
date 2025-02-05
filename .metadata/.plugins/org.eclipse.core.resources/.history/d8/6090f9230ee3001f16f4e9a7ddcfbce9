@@ -1,0 +1,25 @@
+package hub.policy.security;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.stereotype.Service;
+
+import hub.policy.custom_exceptions.UsernameNotFoundException;
+import hub.policy.dao.UserDao;
+
+@Service
+public class CustomUserDetailsService implements UserDetailsService {
+
+	private final UserDao userDao;
+   
+   public CustomUserDetailsService(UserDao userDao) {
+	   this.userDao=userDao;
+   }
+
+	@Override
+	public UserDetails loadUserByUsername(String username)
+			throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,5 @@
+package hub.policy.dao;
+
+public class UserDao {
+
+}

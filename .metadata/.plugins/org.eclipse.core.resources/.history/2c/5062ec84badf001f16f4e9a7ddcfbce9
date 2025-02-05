@@ -1,0 +1,5 @@
+package hub.policy.transactions.entities;
+
+public enum Status {
+    ACTIVE,EXPIRED,CANCELLED
+}

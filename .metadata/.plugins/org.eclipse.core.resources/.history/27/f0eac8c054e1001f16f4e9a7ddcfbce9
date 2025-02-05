@@ -1,0 +1,33 @@
+package hub.policy.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RestController;
+
+import hub.policy.custom_exceptions.AuthenticationException;
+import hub.policy.dao.UserDao;
+import hub.policy.dto.AuthRequest;
+import hub.policy.dto.AuthResponse;
+import hub.policy.dto.UserDto;
+import hub.policy.entities.User;
+import lombok.NoArgsConstructor;
+
+@Service
+@RestController
+@NoArgsConstructor
+public class UserServiceImpl implements UserService {
+   @Autowired
+	private UserDao userDao;
+
+	@Override
+	public AuthResponse authenticateUser(AuthRequest request) {
+		User entity=userDao.findByEmailAndPassword(request.getEmail(), request.getPassword()).orElseThrow(() -> new AuthenticationException("Invalid email or password"));
+		return null;
+	}
+
+	@Override
+	public AuthResponse addUser(UserDto userDetails) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

@@ -1,0 +1,11 @@
+package hub.policy.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import hub.policy.dao.UserAdminDao;
+
+public interface UserAdminService {
+	@Autowired 
+	private UserAdminDao userAdminDao;
+
+}

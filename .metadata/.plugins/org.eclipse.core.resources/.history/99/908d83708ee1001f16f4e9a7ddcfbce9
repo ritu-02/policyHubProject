@@ -1,0 +1,5 @@
+package hub.policy.service;
+
+public class UserKycStatusServiceImpl {
+
+}

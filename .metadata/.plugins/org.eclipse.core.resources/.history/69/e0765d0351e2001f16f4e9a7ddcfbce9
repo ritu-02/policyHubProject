@@ -1,0 +1,14 @@
+package hub.policy.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import hub.policy.service.UserAdminService;
+
+@RestController
+@RequestMapping("/useradmin")
+public class UserAdminController {
+     @Autowired
+	private UserAdminService userAdminService;
+}

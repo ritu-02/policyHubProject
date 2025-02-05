@@ -1,0 +1,12 @@
+package hub.policy.service;
+
+import hub.policy.dto.AuthRequest;
+import hub.policy.dto.AuthResponse;
+
+public interface UserService {
+
+	//method for signin
+	AuthResponse authenticateUser(AuthRequest request);
+	
+	
+}

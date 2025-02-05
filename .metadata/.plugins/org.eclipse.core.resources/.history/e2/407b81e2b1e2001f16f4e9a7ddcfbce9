@@ -1,0 +1,19 @@
+package hub.policy.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
+
+import hub.policy.entities.PolicyType;
+
+public class PolicyPlanReqDto {
+	  @JsonProperty(access = Access.READ_ONLY)
+	  private Long policyPlanId;
+	  private String policyPlanName;
+	  private String description;
+	  private double premium;
+	  private double coverageAmount;
+	  private int duration;
+	  @JsonProperty(access = Access.READ_ONLY)
+	  private PolicyType policyType;
+	  
+}

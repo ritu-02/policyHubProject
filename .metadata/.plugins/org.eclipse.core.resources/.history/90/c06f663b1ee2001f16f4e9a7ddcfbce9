@@ -1,0 +1,11 @@
+package hub.policy.service;
+
+public class KycAdminServiceImpl implements KycAdminService {
+
+	@Override
+	public String approveKyc(Long documentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
