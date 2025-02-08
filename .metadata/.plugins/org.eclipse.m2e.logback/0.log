@@ -5035,3 +5035,11 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2025-02-05 10:28:48,133 [Worker-880: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2025-02-05 10:28:48,133 [Worker-880: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2025-02-05 10:28:48,133 [Worker-880: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\git\policy_hub\hub_policy\src\test\resources
+2025-02-05 17:07:38,052 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-02-05 17:45:42,240 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-05 17:45:42,242 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2025-02-05 17:45:42,250 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-02-05 17:45:42,288 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2025-02-05 17:45:42,313 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2025-02-05 17:45:42,313 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2025-02-05 17:45:42,314 [Worker-16: Launching hub_policy - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\git\policy_hub\hub_policy\src\test\resources
